@@ -18,8 +18,8 @@ plugins:
 
 obstacles_layer:
   observation_sources: scan
-  scan: {sensor_frame: front_laser, data_type: LaserScan, topic: front/scan, marking: true, clearing: true}
+  scan: {sensor_frame: front_laser, data_type: LaserScan, topic: scan_filtered, marking: true, clearing: true}
 
 inflater_layer:
- inflation_radius: 0.8
- cost_scaling_factor: 3.5
+ inflation_radius: 0.6
+ cost_scaling_factor: 5
