@@ -14,3 +14,6 @@ oscillation_distance: 0.2
 
 recovery_behavior_enabled: true
 clearing_rotation_allowed: true
+
+NavfnROS:
+  allow_unknown: false
